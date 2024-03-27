@@ -19,7 +19,7 @@ Here's how we should set things up:
         - **base**: Contains base CSS files used across the project.
             - **Button.css**: CSS styles for buttons.
             - **FreeForEver.css**: CSS styles for some global elements or layouts.
-        - **components**: Holds CSS files specific to individual components.
+        - **components**: Holds CSS files specific to individual components (The Tailwind classes were written inside this folder to make the HTML clean and make the tags not have long class list).
             - **CommonQuestions.css**: CSS styles for the Common Questions component.
             - **CreateTutorial.css**: CSS styles for the Create Tutorial component.
             - **Features.css**: CSS styles for the Features component.
@@ -37,12 +37,9 @@ Here's how we should set things up:
         - **Navbar.html**: Responsible for the navigation bar/menu of the project.
         - **ToTop.html**: Provides functionality to scroll the page to the top when clicked.
     - **js**: Contains JavaScript files used for application logic.
-        - **accordion.js**: JavaScript for accordion functionality, if applicable.
+        - **accordion.js**: JavaScript for accordion functionality.
         - **fetchAndInject.js**: JavaScript to fetch HTML components and inject them into `index.html`.
         - **toggleSidebar.js**: JavaScript for toggling a sidebar, if applicable.
         - **toggleTheme.js**: JavaScript for toggling themes, if applicable.
         - **toTopButton.js**: JavaScript for the "back to top" button functionality.
-    - **App.js**: Main JavaScript file for application logic.
-- **.gitignore**: Specifies intentionally untracked files to ignore if using version control.
 - **index.html**: The main HTML file of the project where HTML components are injected dynamically using JavaScript.
-- **README.md**: This file, containing information about the project.
