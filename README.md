@@ -1,7 +1,7 @@
 <!-- Project Title -->
 <div align="center">
   <h1>Helpjuice Internship Task</h1>
-  <h4>Transforming Landing Page Figma design to HTML/CSS</h4>
+  <h2>Transforming Landing Page to HTML/CSS</h2>
 </div>
 
 <!-- Introduction -->
@@ -50,6 +50,8 @@ You can check out the design [here](https://6604957705248464723b89c9--aquamarine
         - 🧩 `accordion.js`: JavaScript for accordion functionality.
         - 🧩 `fetchAndInject.js`: JavaScript to fetch HTML components and inject them into `index.html`.
         - 🧩 `toggleSidebar.js`: JavaScript for toggling a sidebar, if applicable.
-        - 🧩 `toggleTheme.js`: JavaScript for toggling themes, if applicable.
+        - 🧩 `toggleTheme.js`: JavaScript for toggling themes dark / light mode.
         - 🧩 `toTopButton.js`: JavaScript for the "back to top" button functionality.
 - **index.html**: The main HTML file of the project where HTML components are injected dynamically using JavaScript.
+
+**Note:** As a bonus feature, dark mode has been implemented.
