@@ -29,20 +29,17 @@ Here's how we should set things up:
             - **ToTop.css**: CSS styles for the ToTop component.
         - **imgs**: Stores image files used in the project.
     - **components**: Houses reusable HTML components used throughout the application.
-        - **CommonQuestions.html**: Contains frequently asked questions and their answers.
-        - **CreateTutorial.html**: Related to creating a tutorial or instructional content.
-        - **Features.html**: Showcases the features or functionalities of the project.
+        - **CommonQuestions.html**: Contains the common questions section .
+        - **CreateTutorial.html**: Contains the create tutorial section 
+        - **Features.html**: contains Features section.
         - **Footer.html**: Contains the footer section of the project, including links, copyright information, etc.
         - **Header.html**: Houses the header section of the project, typically containing the logo, navigation, etc.
         - **Navbar.html**: Responsible for the navigation bar/menu of the project.
         - **ToTop.html**: Provides functionality to scroll the page to the top when clicked.
     - **js**: Contains JavaScript files used for application logic.
-        - **accordion.js**: JavaScript for accordion functionality, if applicable.
+        - **accordion.js**: JavaScript for accordion functionality.
         - **fetchAndInject.js**: JavaScript to fetch HTML components and inject them into `index.html`.
         - **toggleSidebar.js**: JavaScript for toggling a sidebar, if applicable.
         - **toggleTheme.js**: JavaScript for toggling themes, if applicable.
         - **toTopButton.js**: JavaScript for the "back to top" button functionality.
-    - **App.js**: Main JavaScript file for application logic.
-- **.gitignore**: Specifies intentionally untracked files to ignore if using version control.
 - **index.html**: The main HTML file of the project where HTML components are injected dynamically using JavaScript.
-- **README.md**: This file, containing information about the project.
