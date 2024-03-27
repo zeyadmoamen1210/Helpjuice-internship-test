@@ -1,7 +1,7 @@
 <!-- Project Title -->
 <div align="center">
   <h1>Helpjuice Internship Task</h1>
-  <h2>Transforming Landing Page to HTML/CSS</h2>
+  <h4>Transforming Landing Page Figma design to HTML/CSS</h4>
 </div>
 
 <!-- Introduction -->
