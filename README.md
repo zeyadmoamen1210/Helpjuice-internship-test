@@ -1,3 +1,9 @@
+<!-- Project Title -->
+<div align="center">
+  <h1>Helpjuice Internship Task</h1>
+  <h2>Transforming Landing Page to HTML/CSS</h2>
+</div>
+
 <!-- Introduction -->
 ## ℹ️ What's this project all about?
 Convert Figma design into code using HTML and CSS and Tailwind CSS
@@ -18,6 +24,13 @@ You can check out the design [here](https://6604957705248464723b89c9--aquamarine
             - 🖌️ `FreeForEver.css`: CSS styles for some global elements or layouts.
         - **components**: Holds CSS files specific to individual components.
             - 🛠️ `CommonQuestions.css`: CSS styles for the Common Questions component.
+              **Note**: **I used the BEM CSS methodologies for class names and the following Tailwind CSS code for these classes**:
+              ```css
+              /* Example Tailwind CSS Code */
+              .component-name {
+                  @apply bg-blue-500 text-white;
+              }
+              ```
             - 🛠️ `CreateTutorial.css`: CSS styles for the Create Tutorial component.
             - 🛠️ `Features.css`: CSS styles for the Features component.
             - 🛠️ `Footer.css`: CSS styles for the Footer component.
