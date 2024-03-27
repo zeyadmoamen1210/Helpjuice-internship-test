@@ -28,7 +28,7 @@ Here's how we should set things up:
             - **Navbar.css**: CSS styles for the Navbar component.
             - **ToTop.css**: CSS styles for the ToTop component.
         - **imgs**: Stores image files used in the project.
-    - **components**: Houses reusable HTML components used throughout the application.
+    - **components**: <p align="center"><i>Holds CSS files specific to individual components (The Tailwind classes were written inside this folder to make the HTML clean and make the tags not have long class list)</i></p>
         - **CommonQuestions.html**: Contains frequently asked questions and their answers.
         - **CreateTutorial.html**: Related to creating a tutorial or instructional content.
         - **Features.html**: Showcases the features or functionalities of the project.
