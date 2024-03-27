@@ -1,0 +1,6 @@
+.free-forever__container {
+    @apply flex gap-1 items-center flex-row-reverse mb-2 font-[cursive]
+}
+.free-forever__text {
+    @apply text-[11px] dark:text-white;
+}

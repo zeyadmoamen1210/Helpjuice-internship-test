@@ -1,0 +1,112 @@
+
+<!-- Start Navbar -->
+<header class="app-navbar relative">
+
+    <!-- App Logo -->
+    <div>
+        <img src="./src/assets/imgs/logo.svg" alt="">
+    </div>
+
+    <!-- Navbar Links -->
+    <div class="app-navbar__links-container">
+        <ul class="app-navbar__ul">
+            <li>
+                <a class="app-navbar__a" href="#">home</a>
+            </li>
+            <li>
+                <a class="app-navbar__a" href="#">Features</a>
+            </li>
+            <li>
+                <a class="app-navbar__a" href="#">About</a>
+            </li>
+            <li>
+                <a class="app-navbar__a" href="#">Help Center & Community</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- Navbar right section -->
+    <div class="app-nav__right-section">
+        <div class="app-nav__right-section-first">
+            <div class="free-forever__container">
+                <span> 🤑 </span>
+                <h6 class="free-forever__text">100% free, forever</h6>
+            </div>
+        </div>
+        <div class="app-navbar__right-section-second">
+
+
+
+
+            <a href="#" class="text-grey dark:text-white">Login</a>
+            <button class="app-button__install-wizard">
+                <img src="./src/assets/imgs/chrome.svg" alt="">
+                <span class="text-sm">Install Wizardshot</span>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Burger Menu in mobile -->
+    <div class="flex lg:hidden gap-3 items-center">
+        <button id="toggleSidebar">
+            <img class="dark:hidden block" src="./src/assets/imgs/menu-icon.svg" alt="">
+            <img class="w-[20px] dark:block hidden" src="./src/assets/imgs/menu-icon-white.svg" alt="">
+        </button>
+    </div>
+
+    <!-- Sidebar in mobile -->
+
+    <section id="sidebar" class="app-sidebar">
+        <div class="app-sidebar__header">
+            <img src="./src/assets/imgs/logo.svg" alt="">
+            <button class="closeSidebar">
+                <img src="./src/assets/imgs/x-close.svg" alt="">
+            </button>
+        </div>
+        <div class="p-5">
+            <ul class="leading-[2.7]">
+                <li class="closeSidebar">
+                    <a class="app-navbar__a dark:text-grey underline text-grey font-semibold" href="#">home</a>
+                </li>
+                <li class="closeSidebar">
+                    <a class="app-navbar__a dark:text-grey" href="#">Features</a>
+                </li>
+                <li class="closeSidebar">
+                    <a class="app-navbar__a dark:text-grey" href="#">About</a>
+                </li>
+                <li class="closeSidebar">
+                    <a class="app-navbar__a dark:text-grey" href="#">Help Center & Community</a>
+                </li>
+            </ul>
+        </div>
+        <div class="app-sidebar__bottom-section">
+            <button class="app-button__install-wizard mx-auto">
+                <img src="./src/assets/imgs/chrome.svg" alt="">
+                <span class="text-sm ">Install Wizardshot</span>
+            </button>
+
+            <div class="free-forever__container justify-center ">
+                <span> 🤑 </span>
+                <h6 class="free-forever__text dark:text-grey">100% free, forever</h6>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+    <div class="absolute top-[47px] right-[42px] lg:right-[16%] lg:top-[13%] xl:right-[234px] xl:top-[42%]">
+        <a href="#" class="text-grey" data-id="light">
+            <img class="w-[20px]" src="./src/assets/imgs/sun.svg" alt="">
+        </a>
+        <a href="#" class="text-grey" data-id="dark">
+            <img class="w-[20px]" src="./src/assets/imgs/light.svg" alt="">
+        </a>
+    </div>
+
+</header>
+<!-- End Navbar -->

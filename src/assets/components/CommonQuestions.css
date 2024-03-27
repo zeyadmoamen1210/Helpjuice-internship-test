@@ -1,0 +1,42 @@
+.common-questions__title {
+    @apply text-center text-3xl font-bold mt-5 md:mt-20 mb-4 dark:text-white;
+}
+.common-questions__container {
+    @apply md:p-3 max-w-[900px] mx-auto;
+}
+.common-questions__accordion {
+    @apply border-b border-[#E2E8F0];
+    &:first-of-type .accordion-2 > img {
+        @apply rotate-180;
+    }
+    &:nth-of-type(2) .accordion-2 > img {
+        @apply rotate-180;
+    }
+    &:nth-of-type(3) .accordion-2 > img {
+        @apply rotate-180;
+    }
+}
+
+.app-button__accordion-title {
+    @apply p-5 w-full flex gap-2 justify-between cursor-pointer duration-700 dark:text-white;
+    transition: 0.4s;
+}
+.app-button__accordion-span {
+    @apply text-[#0F172A] text-lg font-semibold dark:text-white
+}
+.app-button__icon {
+    @apply duration-500 w-[15px];
+}
+
+.common-questions__accordion-body {
+    @apply mb-5 p-[0_18px] hidden bg-white overflow-hidden dark:bg-[transparent] dark:text-[#cdcdcdbd];
+}
+
+.common-questions__visit-help {
+    @apply flex justify-between gap-3 items-center p-2 flex-wrap px-5;
+}
+
+
+.common-questions__visit-help-text {
+    @apply text-[#0F172A] text-lg font-semibold dark:text-white
+}

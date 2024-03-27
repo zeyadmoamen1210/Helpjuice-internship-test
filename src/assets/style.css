@@ -1,0 +1,18 @@
+
+/* Our App Base */
+@import "base/Button.css";
+@import "base/FreeForever.css";
+
+/* Our App components */
+@import "components/Header.css";
+@import "components/Navbar.css";
+@import "components/CommonQuestions.css";
+@import "components/CreateTuturial.css";
+@import "components/Features.css";
+@import "components/Footer.css";
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

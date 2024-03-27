@@ -1,0 +1,59 @@
+.create-tut {
+    @apply px-3 md:px-10 lg:px-16 mx-auto border-b-2 border-black mb-3 mt-5 dark:text-[#cdcdcdbd];
+}
+.create-tut__inner {
+    @apply flex flex-wrap gap-4 justify-between items-center bg-black text-white px-10 py-6 rounded-tr-xl rounded-tl-xl ;
+}
+.create-tut__title {
+    @apply text-2xl capitalize mb-3;
+}
+.create-tut__desc {
+    @apply max-w-[500px] text-sm text-[#b3b3b3] dark:text-[#cdcdcdbd];
+}
+.create-tut__try-wizard {
+    @apply flex flex-row-reverse md:flex flex-1 md:flex-auto;
+}
+
+
+
+.app-footer {
+    @apply md:px-10 px-4 lg:px-16 flex flex-wrap gap-7 md:gap-3 justify-between  py-10 dark:text-[#cdcdcdbd];
+}
+
+.app-footer__desc {
+    @apply max-w-[200px] font-semibold text-sm text-grey mb-4 mt-4 dark:text-[#cdcdcdbd];
+}
+
+.app-footer__exper {
+    @apply flex border-2 border-black w-[175px] items-center dark:border-[#cdcdcdbd];
+}
+.app-footer__years {
+    @apply flex-1 border-r-2 border-black dark:border-[#cdcdcdbd] dark:text-[#cdcdcdbd];
+}
+.app-footer__years-h6 {
+    @apply font-bold text-5xl text-center dark:text-[#cdcdcdbd];
+}
+.app-footer__years-span {
+    @apply uppercase block text-center font-bold dark:text-[#cdcdcdbd];
+}
+
+.app-footer__years-2-h6 {
+    @apply text-sm font-bold text-center uppercase dark:text-[#cdcdcdbd];
+}
+.app-footer__company {
+    @apply text-sm font-bold text-center uppercase dark:text-[#cdcdcdbd];
+}
+.app-footer__slogn {
+    @apply text-[10px] w-[175px] font-bold text-center border-r-2 border-b-2 border-l-2 dark:border-[#cdcdcdbd] dark:text-[#cdcdcdbd];
+}
+
+.app-footer__ticktok-insta {
+    @apply flex gap-5 md:items-center mt-4 md:justify-center lg:flex-row-reverse;
+}
+.app-footer__signup-login {
+    @apply flex justify-center gap-8 mt-6 font-semibold dark:text-white;
+}
+
+.app-footer__phone {
+    @apply block md:hidden pt-10 border-t border-t-[#EAECF0] mb-10 dark:border-t-[#cdcdcdbd] dark:text-white;
+}

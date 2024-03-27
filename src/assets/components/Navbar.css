@@ -1,0 +1,43 @@
+.app-navbar {
+    @apply flex gap-3 items-center justify-between py-11;
+}
+.app-navbar__links-container {
+    @apply hidden lg:block;
+}
+.app-navbar__ul {
+    @apply flex gap-8 items-center;
+}
+.app-navbar__a {
+    @apply focus:text-grey focus:font-semibold focus:underline text-grey dark:text-white dark:focus:dark:text-white capitalize;
+}
+
+.app-nav__right-section {
+    @apply hidden lg:block relative;
+}
+.app-nav__right-section-first {
+    @apply absolute top-[-80%] right-[9%] w-full;
+}
+
+
+
+
+.app-navbar__right-section-second {
+    @apply flex gap-3 items-center;
+}
+
+
+.app-sidebar {
+    @apply hidden fixed top-0 left-0 w-full h-full  z-[9999] bg-white;
+}
+
+.app-sidebar__header {
+    @apply p-5 flex gap-2 justify-between items-center border-b border-b-[#E6E6E6];
+}
+
+.app-sidebar__bottom-section {
+    @apply border-t border-[#E6E6E6] pt-6;
+}
+
+.app-sidebar__bottom-section {
+    @apply border-t border-[#E6E6E6] pt-6;
+}

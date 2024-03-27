@@ -1,0 +1,27 @@
+.app-header {
+}
+.app-header__container {
+    @apply max-w-2xl mx-auto py-11 text-center;
+}
+.app-header__heading {
+    @apply font-bold text-4xl md:text-header text-center leading-header dark:text-white;
+}
+.app-header__span {
+    @apply uppercase font-semibold text-lg block text-black-light mt-2 dark:text-[#cdcdcdbd];
+}
+
+.app-header__video-container {
+    @apply relative px-2 lg:px-24;
+}
+
+.app-header__guide {
+    @apply absolute top-[-26px] left-0 md:left-[85px];
+}
+
+.app-header__guide-text {
+    @apply absolute top-[-11px] left-10 w-[150px] capitalize text-[11px] italic leading-4  font-semibold dark:text-white;
+}
+
+.app-header__video-img {
+    @apply w-full max-h-[596px] object-cover bg-gradient-to-t to-[#AB96F8] from-[#FF99D0] p-3 rounded-lg;
+}

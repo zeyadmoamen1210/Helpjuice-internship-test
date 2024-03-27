@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="./src/assets/imgs/favicon.ico">
+    <title>Wizardshot</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="bg-white dark:bg-[#323232] duration-700">
+
+    <div class=" app container mx-auto px-4 md:px-5 lg:px-10">
+        <!-- Start Navbar -->
+        <nav id="nav">
+        </nav>
+        <!-- End Navbar -->
+
+
+        <div class="bg-[url('./src/assets/imgs/bg.png')]">
+            <!-- Start Header -->
+            <header id="header"></header>
+            <!-- End Header -->
+
+            <!-- Start Features -->
+            <section id="features"></section>
+            <!-- End Features -->
+        </div>
+
+
+        <!-- Start Create Tutorial -->
+        <section id="create_tutorial"></section>
+        <!-- End Create Tutorial -->
+
+
+        <!-- Start Common questions -->
+        <section id="common_questions"></section>
+        <!-- End Features -->
+
+        <!-- Start To Top -->
+        <section id="to_top"></section>
+        <!-- End To Top -->
+
+
+        <!-- Start Footer -->
+        <footer id="footer"></footer>
+        <!-- End Footer -->
+    </div>
+
+    <script type="module">
+        import fetchAndInject from "./src/js/fetchAndInject.js";
+        import initAccordion from "./src/js/accordion.js";
+        import toggleSidebar from "./src/js/toggleSidebar.js";
+        import toTopBtn from "./src/js/toTopBtn.js";
+        import toggleTheme from "./src/js/toggleTheme.js";
+
+        const onNavbarSuccess = () => {
+            toggleTheme();
+            toggleSidebar();
+        }
+
+        // Fetch and inject HTML for various sections
+        fetchAndInject('nav#nav', '/src/components/Navbar.html', onNavbarSuccess);
+        fetchAndInject('header#header', '/src/components/Header.html');
+        fetchAndInject('section#features', '/src/components/Features.html');
+        fetchAndInject('section#create_tutorial', '/src/components/CreateTutorial.html');
+        fetchAndInject('section#common_questions', '/src/components/CommonQuestions.html', initAccordion);
+        fetchAndInject('footer#footer', '/src/components/Footer.html');
+        fetchAndInject('section#to_top', '/src/components/ToTop.html', toTopBtn);
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.app-button__install-wizard {
+    @apply bg-primary text-white flex gap-2 items-center p-2 px-3 rounded-lg;
+}
+
+.app-button__install-wizard-arrow {
+    @apply mt-6 mb-5 md:mb-0 mx-auto flex gap-2 items-center bg-primary text-white p-2 px-3 rounded-lg;
+}
+
+.app-button__visit-help {
+    @apply bg-primary text-white text-sm p-2 px-3 rounded-lg m-0;
+}
+
+
+.app-btn__try-wizard {
+    @apply capitalize  flex items-center gap-2;
+}
+.app-btn__try-wizard-title {
+    @apply text-lg block relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-[1px] after:bg-white;
+}
